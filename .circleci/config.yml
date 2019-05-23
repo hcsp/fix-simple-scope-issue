@@ -7,10 +7,10 @@ jobs:
       - checkout
       - run:
           name: Verify whitelist
-          command: echo 1
+          command: ./.circleci/verifyWhitelist.sh
       - run:
           name: Run Maven tests
-          command: echo 1
+          command: mvn clean test
 workflows:
   version: 2
   default:
