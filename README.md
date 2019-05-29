@@ -8,6 +8,6 @@
 -----
 
 
-敬请期待写代码啦的课程
+完成题目有困难？不妨来看看[写代码啦的相应课程](https://xiedaimala.com/tasks/316bb6cc-6aa6-4dac-85e4-ce1c01b72c83/video_tutorials/9bf596ed-281c-410b-b7b4-ede13dd39c03)吧！
 
 回到[写代码啦的题目](https://xiedaimala.com/tasks/316bb6cc-6aa6-4dac-85e4-ce1c01b72c83/quizzes/74cbe1ea-9be5-4918-b8e7-1e5ad4940d1d)，继续挑战！
