@@ -1,7 +1,5 @@
 package com.github.hcsp;
 
-import jdk.nashorn.internal.runtime.Undefined;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println(relation(1, 2));
