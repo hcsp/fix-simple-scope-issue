@@ -14,11 +14,11 @@ public class Main {
     public static String relation(int a, int b) {
         String sign = null;
         if (a > b) {
-             sign = " > ";
+             sign = ">";
         } else if (a < b) {
-             sign = " < ";
+             sign = "<";
         } else {
-            sign = " = ";
+            sign = "=";
         }
         return "" + a + sign + b;
 
