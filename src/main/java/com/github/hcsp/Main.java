@@ -11,14 +11,13 @@ public class Main {
     // Return "a<b" if a < b, "a>b" if a > b, "a=b" otherwise
     // 修复编译错误
     // 在a<b时返回字符串"a<b"，在a>b时返回字符串"a>b"，否则返回"a=b"
-    public static String relation(int a, int b){
-        String sign;
+    public static String relation(int a, int b) {
         if (a > b) {
-            sign = ">";
+            String sign = ">";
         } else if (a < b) {
-            sign = "<";
+            String sign = "<";
         } else {
-            sign = "=";
+            String sign = "=";
         }
 
         return "" + a + sign + b;
