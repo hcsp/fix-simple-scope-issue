@@ -1,7 +1,9 @@
 package com.github.hcsp;
 
 public class Main {
+    static String sign;//定义静态成员变量，则下面只赋值即可，不需要String定义了
     public static void main(String[] args) {
+
         System.out.println(relation(1, 2));
         System.out.println(relation(2, 1));
         System.out.println(relation(2, 2));
@@ -13,13 +15,12 @@ public class Main {
     // 在a<b时返回字符串"a<b"，在a>b时返回字符串"a>b"，否则返回"a=b"
     public static String relation(int a, int b) {
         if (a > b) {
-            String sign = ">";
+            sign = ">";
         } else if (a < b) {
-            String sign = "<";
+            sign = "<";//在此时才定义sign变量
         } else {
-            String sign = "=";
+            sign = "=";
         }
-
         return "" + a + sign + b;
     }
 }
