@@ -6,7 +6,7 @@ public class Main {
         System.out.println(relation(2, 1));
         System.out.println(relation(2, 2));
     }
-    public static String sign = "";
+    public static String sign;
     // Fix the compilation error
     // Return "a<b" if a < b, "a>b" if a > b, "a=b" otherwise
     // 修复编译错误
