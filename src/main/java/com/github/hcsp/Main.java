@@ -14,12 +14,17 @@ public class Main {
     public static String relation(int a, int b) {
         if (a > b) {
             String sign = ">";
-        } else if (a < b) {
+            return "" + a + sign + b;
+        }
+        else if (a < b) {
             String sign = "<";
-        } else {
+            return "" + a + sign + b;
+        }
+        else {
             String sign = "=";
+            return "" + a + sign + b;
         }
 
-        return "" + a + sign + b;
+        //return "" + a + sign + b;
     }
 }
