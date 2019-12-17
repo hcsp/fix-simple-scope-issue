@@ -1,5 +1,7 @@
 package com.github.hcsp;
 
+import java.text.MessageFormat;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println(relation(1, 2));
@@ -14,12 +16,16 @@ public class Main {
     public static String relation(int a, int b) {
         if (a > b) {
             String sign = ">";
+            String result = MessageFormat.format("a{0}b", sign);
+            return result;
         } else if (a < b) {
             String sign = "<";
+            String result = MessageFormat.format("a{0}b", sign);
+            return result;
         } else {
             String sign = "=";
+            String result = MessageFormat.format("a{0}b", sign);
+            return result;
         }
-
-        return "" + a + sign + b;
     }
 }
