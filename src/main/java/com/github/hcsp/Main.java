@@ -14,7 +14,7 @@ public class Main {
     public static String relation(int a, int b) {
         String sign;
         if (a > b) {
-             sign = ">";
+            sign = ">";
         } else if (a < b) {
             sign = "<";
         } else {
