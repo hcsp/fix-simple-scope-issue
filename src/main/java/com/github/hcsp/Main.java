@@ -1,25 +1,21 @@
 package com.github.hcsp;
-
 public class Main {
+    public static String sign;
+    //在这里也可以，反正要大于return，不过鉴于结构清晰，肯定放他自己的函数中
     public static void main(String[] args) {
         System.out.println(relation(1, 2));
         System.out.println(relation(2, 1));
         System.out.println(relation(2, 2));
     }
-
-    // Fix the compilation error
-    // Return "a<b" if a < b, "a>b" if a > b, "a=b" otherwise
-    // 修复编译错误
-    // 在a<b时返回字符串"a<b"，在a>b时返回字符串"a>b"，否则返回"a=b"
     public static String relation(int a, int b) {
+//        String sign;   sign在if外面定义就行，要不然return里的sign没用。
         if (a > b) {
-            String sign = ">";
+             sign = ">";
         } else if (a < b) {
-            String sign = "<";
+             sign = "<";
         } else {
-            String sign = "=";
+             sign = "=";
         }
-
         return "" + a + sign + b;
     }
 }
