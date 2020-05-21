@@ -23,5 +23,6 @@ public class Main {
         }
 
         return "" + a + sign + b;
+
     }
 }
