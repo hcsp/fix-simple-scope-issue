@@ -20,7 +20,6 @@ public class Main {
         } else {
             sign = "=";
         }
-
         return "" + a + sign + b;
     }
 }
