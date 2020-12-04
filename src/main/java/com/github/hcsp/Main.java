@@ -1,6 +1,9 @@
 package com.github.hcsp;
 
 public class Main {
+
+    private static String sign;
+
     public static void main(String[] args) {
         System.out.println(relation(1, 2));
         System.out.println(relation(2, 1));
@@ -19,7 +22,7 @@ public class Main {
         } else {
             String sign = "=";
         }
-
+        
         return "" + a + sign + b;
     }
 }
