@@ -21,5 +21,6 @@ public class Main {
             sign = "=";
         }
         return "" + a + sign + b;
+
     }
 }
