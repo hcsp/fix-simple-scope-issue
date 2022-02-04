@@ -14,13 +14,13 @@ public class Main {
     // 在a<b时返回字符串"a<b"，在a>b时返回字符串"a>b"，否则返回"a=b"
     public static String relation(int a, int b) {
         if (a > b) {
-            Main.sign = ">";
+            sign = ">";
         } else if (a < b) {
-            Main.sign = "<";
+            sign = "<";
         } else {
-            Main.sign = "=";
+            sign = "=";
         }
 
-        return "" + a + Main.sign + b;
+        return a + sign + b;
     }
 }
