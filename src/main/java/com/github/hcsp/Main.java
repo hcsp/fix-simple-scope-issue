@@ -16,6 +16,7 @@ public class Main {
         if (a > b) {
             sign = ">";
         } else if (a < b) {
+
             sign = "<";
         } else {
             sign = "=";
