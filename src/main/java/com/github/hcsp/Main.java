@@ -12,15 +12,14 @@ public class Main {
     // 修复编译错误
     // 在a<b时返回字符串"a<b"，在a>b时返回字符串"a>b"，否则返回"a=b"
     public static String relation(int a, int b) {
-        String DD;
         if (a > b) {
-             DD = ">";
+            String sign = ">";
         } else if (a < b) {
-             DD = "<";
+            String sign = "<";
         } else {
-             DD = "=";
+            String sign = "=";
         }
 
-        return a + DD + b;
+        return "" + a + sign + b;
     }
 }
