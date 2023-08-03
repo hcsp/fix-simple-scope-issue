@@ -10,6 +10,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -38,7 +39,7 @@ public class MainTest {
                                                     try {
                                                         cb.await();
                                                     } catch (InterruptedException
-                                                            | BrokenBarrierException e) {
+                                                             | BrokenBarrierException e) {
                                                         e.printStackTrace();
                                                     }
                                                     String relation = Main.relation(a, b);
